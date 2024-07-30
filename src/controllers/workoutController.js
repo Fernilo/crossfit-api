@@ -3,7 +3,6 @@ const workoutService = require('../services/workoutService')
 const getAllWorkouts = (req, res) => {
     try {
 		const allWorkouts = workoutService.getAllWorkouts();
-		console.log(allWorkouts)
 		res.send({ status: "OK", data: allWorkouts });
 	} catch (error) {
 		res
