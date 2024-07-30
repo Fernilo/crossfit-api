@@ -23,7 +23,7 @@ Para construir y levantar los servicios definidos en el archivo docker-compose.y
 
 
 ```sh
-    docker-compose up --build
+docker-compose up --build
 ```
 
 Esto construirá la imagen de Docker y levantará el contenedor en modo desarrollo utilizando el script dev definido en el package.json.
@@ -37,9 +37,8 @@ Una vez que los contenedores estén corriendo, podrás acceder a la API en
 Para detener los contenedores, ejecuta:
 
 ```sh
-    docker-compose down
+docker-compose down
 ```
-
 
 ### Estructura del Proyecto
 ```sh
@@ -59,8 +58,8 @@ Para detener los contenedores, ejecuta:
 
 ### Scripts de npm
 ```sh
-    npm run dev: Ejecuta la aplicación en modo desarrollo utilizando node --watch.
-    npm test: Comando de ejemplo para pruebas (no implementado).
+npm run dev: Ejecuta la aplicación en modo desarrollo utilizando node --watch.
+npm test: Comando de ejemplo para pruebas (no implementado).
 ```
 
 ## Licencia
