@@ -9,11 +9,12 @@ Este proyecto es una API para gestionar un sistema de Crossfit. Utiliza Node.js 
 
 ## Configuración
 
-1. Clona este repositorio:
+Clona este repositorio:
 
-   ```sh
-   git clone https://github.com/tu-usuario/crossfit-api.git
-   cd crossfit-api
+```sh
+git clone https://github.com/tu-usuario/crossfit-api.git
+cd crossfit-api
+```
 
 ## Uso
 ### Levantar el Proyecto
